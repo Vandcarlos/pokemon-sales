@@ -1,0 +1,33 @@
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "94B-hM-8df"; */
+"94B-hM-8df.normalTitle" = "Back";
+
+/* Class = "UILabel"; text = "No data"; ObjectID = "Ase-u9-e3e"; */
+"Ase-u9-e3e.text" = "No data";
+
+/* Class = "UILabel"; text = "Price"; ObjectID = "N5d-cD-UpG"; */
+"N5d-cD-UpG.text" = "Price";
+
+/* Class = "UILabel"; text = "Weakness"; ObjectID = "NO1-X2-ghQ"; */
+"NO1-X2-ghQ.text" = "Weakness";
+
+/* Class = "UILabel"; text = "Section"; ObjectID = "OVp-Y6-L0w"; */
+"OVp-Y6-L0w.text" = "Section";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "aqR-ZL-P5N"; */
+"aqR-ZL-P5N.text" = "Name";
+
+/* Class = "UILabel"; text = "No data"; ObjectID = "fGi-Fs-W2s"; */
+"fGi-Fs-W2s.text" = "No data";
+
+/* Class = "UITabBarItem"; title = "Collection"; ObjectID = "gF8-w0-t2d"; */
+"gF8-w0-t2d.title" = "Collection";
+
+/* Class = "UILabel"; text = "Description"; ObjectID = "j8y-fu-TBJ"; */
+"j8y-fu-TBJ.text" = "Description";
+
+/* Class = "UILabel"; text = "Type"; ObjectID = "jFj-jc-M8I"; */
+"jFj-jc-M8I.text" = "Type";
+
+/* Class = "UITabBarItem"; title = "Table"; ObjectID = "qcz-an-hKx"; */
+"qcz-an-hKx.title" = "Table";

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="200" id="KGk-i7-Jjw" customClass="TableViewCell" customModule="pokemon_sales" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="199.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ckf-Av-2gD">
+                        <rect key="frame" x="15" y="15" width="290" height="169.5"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="no_pokemon.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="hxE-Dw-dlG">
+                                <rect key="frame" x="0.0" y="0.0" width="150" height="169.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="c3e-e1-Q5g">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="300"/>
+                                    </constraint>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5MB-Az-cux">
+                                <rect key="frame" x="150" y="0.0" width="140" height="169.5"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalCentering" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="4zR-cy-Nac">
+                                        <rect key="frame" x="15" y="0.0" width="125" height="169.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="liy-kV-fOD">
+                                                <rect key="frame" x="0.0" y="0.0" width="57" height="24"/>
+                                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                                <variation key="heightClass=regular-widthClass=regular">
+                                                    <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
+                                                </variation>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Type" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kwy-it-wdY">
+                                                <rect key="frame" x="0.0" y="50.5" width="37.5" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                                <variation key="heightClass=regular-widthClass=regular">
+                                                    <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                                </variation>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Section" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nwk-RU-QHe">
+                                                <rect key="frame" x="0.0" y="99" width="58" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                                <variation key="heightClass=regular-widthClass=regular">
+                                                    <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                                </variation>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nXd-ys-Bvh">
+                                                <rect key="frame" x="0.0" y="145.5" width="45.5" height="24"/>
+                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                                <variation key="heightClass=regular-widthClass=regular">
+                                                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="30"/>
+                                                </variation>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="4zR-cy-Nac" firstAttribute="top" secondItem="5MB-Az-cux" secondAttribute="top" id="AtQ-jV-vMv"/>
+                                    <constraint firstAttribute="trailing" secondItem="4zR-cy-Nac" secondAttribute="trailing" id="JX9-LD-kjB"/>
+                                    <constraint firstAttribute="bottom" secondItem="4zR-cy-Nac" secondAttribute="bottom" id="bUt-Ad-iRg"/>
+                                    <constraint firstItem="4zR-cy-Nac" firstAttribute="leading" secondItem="5MB-Az-cux" secondAttribute="leading" constant="15" id="gH3-OG-p0d"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="5MB-Az-cux" firstAttribute="trailing" secondItem="7tH-bN-TwZ" secondAttribute="trailing" id="BYV-wH-BQn"/>
+                            <constraint firstItem="5MB-Az-cux" firstAttribute="top" secondItem="7tH-bN-TwZ" secondAttribute="top" id="IOi-2O-10d"/>
+                            <constraint firstItem="5MB-Az-cux" firstAttribute="bottom" secondItem="7tH-bN-TwZ" secondAttribute="bottom" id="cfp-wS-VwI"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="7tH-bN-TwZ"/>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="ckf-Av-2gD" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="CwA-xx-fP1"/>
+                    <constraint firstAttribute="trailing" secondItem="ckf-Av-2gD" secondAttribute="trailing" constant="15" id="OZP-Bf-VF1"/>
+                    <constraint firstItem="ckf-Av-2gD" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="QTZ-yX-FKP"/>
+                    <constraint firstAttribute="bottom" secondItem="ckf-Av-2gD" secondAttribute="bottom" constant="15" id="c18-vW-Kha"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="pokemonImage" destination="hxE-Dw-dlG" id="pZ2-eS-TRv"/>
+                <outlet property="pokemonName" destination="liy-kV-fOD" id="wvh-kN-Fr9"/>
+                <outlet property="pokemonPrice" destination="nXd-ys-Bvh" id="d66-Y3-Mdz"/>
+                <outlet property="pokemonSection" destination="Nwk-RU-QHe" id="lID-De-nGy"/>
+                <outlet property="pokemonType" destination="Kwy-it-wdY" id="Be0-rt-RON"/>
+            </connections>
+            <point key="canvasLocation" x="137.59999999999999" y="159.22038980509745"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="no_pokemon.jpg" width="454" height="340"/>
+    </resources>
+</document>

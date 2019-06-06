@@ -1,0 +1,14 @@
+/*
+  Localizable.strings
+  pokemon-sales
+
+*/
+
+"Table" = "Tabela";
+"Collection" = "Coleção";
+"Back" = "Voltar";
+"No data" = "Sem dados";
+"Type" = "Tipo";
+"Wakeness" = "Fraquesas";
+"Section" = "Seção";
+"Price" = "Preço";
